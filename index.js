@@ -6,6 +6,7 @@ const ejs = require("ejs");
 const passport = require("passport");
 const {intializingpassport, isAuthenticateuser} = require("./passportConfig");
 
+console.log("Chnage");
 const port = 8080;
 
 const app = express();
